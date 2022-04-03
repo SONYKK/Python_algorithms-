@@ -12,4 +12,5 @@ for element in range(DIGIT_1, DIGIT_2 + 1):
         if el % element == 0:
             i += 1
     print(f'Целых {i} чисел кратно цифре {element}.')
+
     
